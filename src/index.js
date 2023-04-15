@@ -5,7 +5,7 @@ import swaggerDocument from '../swagger.json' assert {type: 'json'};
 
 import cors from 'cors'
 import bodyParser from 'body-parser'
-import userCreateController from "./Controllers/create/userCreateController.js";
+import userCreateController from "./Controllers/user/userCreateController.js";
 import sorteioController from "./Controllers/sorteio/sorteioController.js";
 
 const app = express();
