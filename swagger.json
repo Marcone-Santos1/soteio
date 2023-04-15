@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
+    "title": "Sorteio - amigo secreto",
     "version": "1.0.0",
-    "title": "REST API",
     "description": ""
   },
   "host": "sorteio-deploy-api.onrender.com",

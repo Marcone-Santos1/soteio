@@ -1,4 +1,5 @@
 import swaggerAutogen  from 'swagger-autogen';
+import * as http from "http";
 
 const doc = {
     info: {
