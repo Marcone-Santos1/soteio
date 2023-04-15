@@ -1,7 +1,10 @@
 {
   "scripts": {
-    "serve": "nodemon ./src/serve.js",
+    "serve": "node src/serve.js",
     "doc": "node swagger.js"
+  },
+  "engines": {
+    "node": "18"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
