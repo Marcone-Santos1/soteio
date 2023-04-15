@@ -8,6 +8,6 @@ const port = process.env.PORT;
 const mongo = process.env.MONGO;
 
 app.listen(port, () => {
-    console.log(`server running in http://localhost:${port}`)
+    console.log(`server running`)
     mongoose.connect(mongo).then(() => console.log('Banco connectado com sucesso')).catch(e => console.log(e));
 })
