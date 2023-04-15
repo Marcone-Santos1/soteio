@@ -5,7 +5,7 @@
     "title": "REST API",
     "description": ""
   },
-  "host": "https://sorteio-deploy-api.onrender.com",
+  "host": "sorteio-deploy-api.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
