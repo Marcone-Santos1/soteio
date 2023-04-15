@@ -5,7 +5,10 @@ const doc = {
     info: {
         title: 'Sorteio - amigo secreto'
     },
-    host: 'sorteio-deploy-api.onrender.com'
+    host: 'sorteio-deploy-api.onrender.com',
+    schemes: [
+        'https'
+    ]
 }
 
 const outputFile = './swagger.json';

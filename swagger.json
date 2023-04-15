@@ -8,10 +8,16 @@
   "host": "sorteio-deploy-api.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
+    "*": {
+      "options": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
     "/user/": {
       "get": {
         "description": "",
@@ -146,9 +152,5 @@
         }
       }
     }
-  },
-  "schema": [
-    "http",
-    "https"
-  ]
+  }
 }
